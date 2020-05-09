@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rosybrown;
+    min-height: 90px;
+}
+main{
+    background-color:rgb(22, 192, 192);
+
+}
+.container{
+    overflow: hidden;
+    margin: auto;
+    width: 75%;
+    padding-top: 16px;
+}
+.logo{
+    float: left;
+}
+.logo h1{
+    color: springgreen;
+    font-weight: bold;
+    font-size: 42px;
+}
+.login{
+    float: right;
+    overflow: hidden;
+}
+.l1, .l2, .l3{
+    float: left;
+    margin-right: 12px;
+    color: snow;
+    font-size: 12px;
+}
+.email_phone, .password{
+    padding: 3px;
+    border: 1px solid;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.login a:hover{
+    text-decoration-line: underline;
+    color: black;
+}
+.login button{
+    color: white;
+    background-color: rosybrown;
+    margin: 20px 0;
+    padding: 3px 6px;
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+.login button:hover{
+    background-color: #3B5998;
+}
+.image{
+    float: left;
+    max-width: 50%;
+    margin-top: 32px;
+}
+.image h2{
+    color: #0E385F;
+    font-size: 25px;
+}
+.img{
+    margin-top: 5px;
+}
+.info{
+    float: right;
+    max-width: 40%;
+    margin-top: 5px;
+}
+.info h1{
+    color: #333;
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+.info h3{
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.form{
+    overflow: hidden;
+}
+.first_name, .surname, .email_phone, .password{
+    padding: 8px 13px;
+    border-radius: 5px;
+    border: 1px solid #86bcc8;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 10px;
+}
+.top1{
+    width: 40%;
+    float: left;
+    margin-bottom: 10px;
+}
+.top2{
+    width: 40%;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 13px;
+}
+.custom{
+    padding: 8px 13px;
+    border-radius: 5px;
+    border: 1px solid #86bcc8;
+    width: 95%;
+    margin-top: 10px;
+}
+.custom1{
+    padding: 8px 13px;
+    border-radius: 5px;
+    border: 1px solid #86bcc8;
+    width: 88%;
+    margin-top: 10px;
+}
+.h5{
+    display: block;
+    font-size: 12px;
+    text-decoration-color: #90949C;
+}
+.bday, .gen{
+    color: black;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-bottom: 7px;
+}
+select{
+    padding: 6px;
+}
+.gender{
+    margin: 8px;
+}
+p{
+    color: #767980;
+    font-size: 12px;
+    margin: 16px 0;
+    padding-right: 50px;
+}
+p a{
+    color: #385898;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration-line: underline;
+}
+.sign{
+    padding: 10px 60px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #29481c;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.sign:hover{
+    background-color: #61974CE3;
+}
+.p2{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px 0;
+}
+.footer{
+    background-color: seashell;
+}
+.foot1{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.foot1 span{
+    color: #767980;
+}
+.foot1 a, .foot2 a{
+    color: #385898;
+    text-decoration: none;
+    padding: 6px;
+}
+.foot1 a:hover{
+    text-decoration-line: underline;
+}
+.foot2 a:hover{
+    text-decoration-line: underline;
+}
+.foot1 button{
+    padding: 0 5px;
+    font-weight: bold;
+    color: #767980;
+    font-size: 14px;
+    border: 1px solid#767980;
+}
+.foot1 button:hover{
+    background-color: #c2c6d0d6;
+}
+hr{
+    margin: 12px 0;
+    border: 0.5px solid #7679804d;
+}
+.foot2{
+    margin: 10px 0 20px;
+    font-size: 15px;
+}
+.copyright span{
+    color: #767980;
+    font-size: 13px;
+    padding: 6px 0;
+    
+}
